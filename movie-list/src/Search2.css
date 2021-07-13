@@ -1,0 +1,28 @@
+.pic1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.pic2 {
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.pic3 {
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-gap: 50px 100px;
+}
+
